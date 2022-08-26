@@ -94,3 +94,13 @@ size_t V4l2Capture::getWidth()
 {
 	return m_device->getHeight();
 }
+
+size_t V4l2Capture::getPixelFormat()
+{
+	return m_device->getFormat();
+}
+
+size_t V4l2Capture::getBufferSize()
+{
+	return m_device->getBufferSize();
+}

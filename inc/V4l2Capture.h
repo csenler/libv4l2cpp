@@ -31,6 +31,8 @@ public:
 
 	size_t getHeight();
 	size_t getWidth();
+	size_t getPixelFormat();
+	size_t getBufferSize();
 };
 
 #endif
