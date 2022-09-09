@@ -104,3 +104,8 @@ size_t V4l2Capture::getBufferSize()
 {
 	return m_device->getBufferSize();
 }
+
+size_t V4l2Capture::getBytesPerLine()
+{
+	return m_device->getBytesPerLine();
+}

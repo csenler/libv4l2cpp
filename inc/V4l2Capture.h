@@ -33,6 +33,7 @@ public:
 	size_t getWidth();
 	size_t getPixelFormat();
 	size_t getBufferSize();
+	size_t getBytesPerLine();
 };
 
 #endif
